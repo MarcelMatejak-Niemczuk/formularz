@@ -17,7 +17,20 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <label for="email">Wpisz swój adres e-mail:</label><br>
      <input type="email" id="email" name="email" placeholder="stasiek@gmail.com" required><br><br>
-    
+     <style>
+     body {
+         font-family: Arial, sans-serif;
+         margin: 20px;
+         }
+     input[type="tel"] {
+         padding: 10px;
+         width: 100%;
+         max-width: 150px;
+         border: 1px solid #ccc;
+   </style>
+     <form action="#" method="post">
+     <label for="phone">wprowadź numer telefonu:</label><br>
+     <input type="tel" id="phone" name="phone" placeholder="+48 364 248 193" required pattern="\+48 \d{3}    \d{3} \d{3}">
      <br>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <label for="tekst">wpisz hasło:</label><br>
@@ -39,7 +52,6 @@
         Kobieta
      </label><br>
      <label> <br>
-      
      <input type="reset" value="Resetuj formularz">
      <input type="submit" value="wyślij formularz">
    </head>
