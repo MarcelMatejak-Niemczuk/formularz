@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+ <head>
+  <style>
+   body {background-color: green;}
+   h1   {color: black;}
+   p    {color: black;}
+   th   {color: blue;}
+   </style>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <label for="tekst">wpisz imię:</label><br>
+     <input type="text" id="tekst" name="tekst" placeholder="...."><br><br>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <label for="tekst">wpisz nazwisko:</label><br>
+     <input type="text" id="tekst" name="tekst" placeholder="...."><br><br>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <label for="email">Wpisz swój adres e-mail:</label><br>
+     <input type="email" id="email" name="email" placeholder="stasiek@gmail.com" required><br><br>
+     <style>
+     body {
+         font-family: Arial, sans-serif;
+         margin: 20px;
+         }
+     input[type="tel"] {
+         padding: 10px;
+         width: 100%;
+         max-width: 150px;
+         border: 1px solid #ccc;
+   </style>
+     <form action="#" method="post">
+     <label for="phone">wprowadź numer telefonu:</label><br>
+     <input type="tel" id="phone" name="phone" placeholder="+48 364 248 193" required pattern="\+48 \d{3}    \d{3} \d{3}">
+     <br>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <label for="tekst">wpisz hasło:</label><br>
+     <input type="text" id="tekst" name="tekst" placeholder="...."><br><br>
+     <label for="country">wybierz kraj:</label><br>
+     <select id="country" name="country" required>
+        <option value="" disabled selected> wybierz kraj</option>
+        <option value="pl">Duszanbe</option>
+        <option value="de">Angola</option>
+        <option value="us">Polska</option>
+        </select><br><br>
+     <input type="checkbox" id="terms" name="terms" required>
+     <label for="tekst">klikając akceptujesz warunki regulaminu:</label><br>
+     <p>wybór płci:</p>
+        <input type="radio" id="male" name="gender" value="male">
+        Mężczyzna
+        <br>
+        <input type="radio" id="female" name="gender" value="female">
+        Kobieta
+     </label><br>
+     <label> <br>
+     <input type="reset" value="Resetuj formularz">
+     <input type="submit" value="wyślij formularz">
+   </head>
+  </form>
+ </body>
+</html>
